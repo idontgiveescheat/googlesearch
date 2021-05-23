@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -7,8 +7,36 @@
   <body>
     <a href="gsearch.html">Google Search</a>
     <br>
-    <a href="gimages.html">Google Image Search</a>
-    <br>
-    <a href="gadvanced.html">Google Advanced Search</a>
+    <
   </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+          input[type=text] {
+            padding: 5px 10px;
+            border-radius: 20px;
+            width: 200px;
+            border: 1px solid black;
+            outline:none;
+            font-size:14px;
+          }
+        </style>
+    </head>
+    <body onload="document.body.search.q.focus();"> <!--Undefined-->
+        <form action="https://google.com/search" name="search">
+            <input type="text" name="q" id="q" placeholder="Search Google" autocomplete="off">
+            <input type="submit" value="Google Search">
+        </form>
+		<form action="https://LividPalegreenScales.jacob5257.repl.co/gadvanced.html">
+			<input type='submit' value="Google Advanced Search">
+		</form>
+		<form action="https://LividPalegreenScales.jacob5257.repl.co/gimages.html">
+			<input type='submit' value="Google Image Search">
+		</form>
+		<!--Does this look good on Mac-->
+    </body>
 </html>
