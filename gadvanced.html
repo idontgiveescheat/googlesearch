@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Advanced Search</title>
+		<link rel="stylesheet" href="gadvancedFormat.css" type="text/css">
+		<link rel="stylesheet" href="searchText.css" type="text/css">
     </head>
     <body>
 		<!--https://www.google.com/search?as_q=one&as_epq=two&as_oq=three&as_eq=four&as_nlo=5&as_nhi=6-->
         <form action="https://google.com/search">
-			<p>Includes:</p>
-			<input type="text" name="as_q">
-			<br>
-			<p>Exactly Matches:</p>
-			<input type="text" name="as_epq">
-			<br>
-			<p>Any of These:</p>
-			<input type="text" name="as_oq">
-			<br>
-			<p>None of These:</p>
-			<input type="text" name="as_eq">
+			<div>
+			Includes:
+			<input type="text" name="as_q" placeholder="Includes">
+			</div>
+			<div>
+			Exactly Matches:
+			<input type="text" name="as_epq" placeholder="Exactly Matches">
+			</div>
+			<div>
+			Any of These:
+			<input type="text" name="as_oq" placeholder="Any of These">
+			</div>
+			<div>
+			None of These:
+			<input type="text" name="as_eq" placeholder="None of These">
+			</div>
             <input type="submit" value="Google Advanced Search">
         </form>
 		<form action="https://LividPalegreenScales.jacob5257.repl.co">
