@@ -1,16 +1,3 @@
-<!--<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-  </head>
-  <body>
-    <a href="gsearch.html">Google Search</a>
-    <br>
-    <
-  </body>
-</html>-->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -24,10 +11,14 @@
             outline:none;
             font-size:14px;
           }
+		  #form {
+			  text-align:center
+		  }
         </style>
+		<link rel="stylesheet" href="centeredForms.css" type="text/css">
     </head>
-    <body onload="document.body.search.q.focus();"> <!--Undefined-->
-        <form action="https://google.com/search" name="search">
+    <body onload="document.body.search.q.focus();">
+        <form action="https://google.com/search" name="search" id="googleSearch">
             <input type="text" name="q" id="q" placeholder="Search Google" autocomplete="off">
             <input type="submit" value="Google Search">
         </form>
@@ -37,6 +28,5 @@
 		<form action="https://LividPalegreenScales.jacob5257.repl.co/gimages.html">
 			<input type='submit' value="Google Image Search">
 		</form>
-		<!--Does this look good on Mac-->
     </body>
 </html>
