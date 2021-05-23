@@ -9,12 +9,13 @@
             width: 200px;
             border: 1px solid black;
             outline:none;
+            font-size:14px;
           }
         </style>
     </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q" placeholder>
+    <body onload="document.body.search.q.focus();">
+        <form action="https://google.com/search" name="search">
+            <input type="text" name="q" placeholder="Search Google" autocomplete="off">
             <input type="submit" value="Google Search">
         </form>
     </body>
