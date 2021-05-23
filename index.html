@@ -4,20 +4,22 @@
         <title>Search</title>
         <style>
           
-		  #form {
-			  text-align:center
-		  }
+		  	#form {
+			  	text-align:center
+		  	}
         </style>
 		<link rel="stylesheet" href="centeredForms.css" type="text/css">
 		<link rel="stylesheet" href="searchText.css" type="text/css">
+		<link rel="stylesheet" href="buttons.css" type="text/css">
     </head>
-    <body onload="document.body.search.q.focus();">
-        <form action="https://google.com/search" name="search" id="googleSearch">
-            <input type="text" name="q" id="q" placeholder="Search Google" autocomplete="off">
+    <body>
+        <form action="https://google.com/search">
+            <input type="text" name="q" placeholder="Search Google">
+			<br>
             <input type="submit" value="Google Search">
         </form>
 		<form action="https://LividPalegreenScales.jacob5257.repl.co/gadvanced.html">
-			<input type='submit' value="Google Advanced Search">
+			<input type='submit' value="Google Advanced Search" id="searchButtons">
 		</form>
 		<form action="https://LividPalegreenScales.jacob5257.repl.co/gimages.html">
 			<input type='submit' value="Google Image Search">
